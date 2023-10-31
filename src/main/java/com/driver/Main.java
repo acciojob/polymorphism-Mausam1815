@@ -8,15 +8,3 @@ public class Main {
         System.out.println(p.doubleProduct(5.5, 10.5));
     }
 }
-class Product {
-    public int product(int x, int y) {
-        return x * y;
-    }
-
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
-    public double doubleProduct(double x, double y) {
-        return x * y;
-    }
-}
